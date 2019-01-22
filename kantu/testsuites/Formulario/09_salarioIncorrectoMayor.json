@@ -1,0 +1,81 @@
+{
+  "Name": "pruebas",
+  "CreationDate": "2019-1-13",
+  "Commands": [
+    {
+      "Command": "open",
+      "Target": "https://gema-de-la-fuente.github.io/PracticaFormulario/formulario.html",
+      "Value": ""
+    },
+    {
+      "Command": "open",
+      "Target": "https://gema-de-la-fuente.github.io/PracticaFormulario/formulario.html",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=Nombre",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=Nombre",
+      "Value": "hola"
+    },
+    {
+      "Command": "type",
+      "Target": "id=Apellido",
+      "Value": "hola"
+    },
+    {
+      "Command": "type",
+      "Target": "id=email",
+      "Value": "hola@pufo.es"
+    },
+    {
+      "Command": "select",
+      "Target": "id=Trabajo",
+      "Value": "label=SECRETARIO"
+    },
+    {
+      "Command": "select",
+      "Target": "id=Trabajo",
+      "Value": "label=STAFF"
+    },
+    {
+      "Command": "select",
+      "Target": "id=Jefe",
+      "Value": "label=JAMES MURRAY"
+    },
+    {
+      "Command": "click",
+      "Target": "id=Fecha_contrato",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=Fecha_contrato",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=Fecha_contrato",
+      "Value": "2019-01-09"
+    },
+    {
+      "Command": "type",
+      "Target": "id=movil",
+      "Value": "711111111"
+    },
+    {
+      "Command": "type",
+      "Target": "id=Salario",
+      "Value": "12001"
+    },
+    {
+      "Command": "click",
+      "Target": "//*[@id=\"formulario\"]/div[9]/input",
+      "Value": ""
+    }
+  ]
+}

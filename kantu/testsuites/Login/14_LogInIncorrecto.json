@@ -1,0 +1,26 @@
+{
+  "Name": "Prueba3",
+  "CreationDate": "2019-1-10",
+  "Commands": [
+    {
+      "Command": "open",
+      "Target": "https://pazrubio.github.io/Formulario/login.html",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=usuario",
+      "Value": "PazIncorrecto"
+    },
+    {
+      "Command": "type",
+      "Target": "id=contrasenia",
+      "Value": "102323424"
+    },
+    {
+      "Command": "click",
+      "Target": "id=submit",
+      "Value": ""
+    }
+  ]
+}

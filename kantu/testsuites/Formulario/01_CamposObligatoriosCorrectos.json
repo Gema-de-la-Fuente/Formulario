@@ -1,0 +1,71 @@
+{
+  "Name": "Prueba1",
+  "CreationDate": "2019-1-10",
+  "Commands": [
+    {
+      "Command": "open",
+      "Target": "https://pazrubio.github.io/Formulario/formulario.html",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=Nombre",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=Nombre",
+      "Value": "Paz"
+    },
+    {
+      "Command": "type",
+      "Target": "id=Apellido",
+      "Value": "Rubio"
+    },
+    {
+      "Command": "type",
+      "Target": "id=email",
+      "Value": "paz@pufo.es"
+    },
+    {
+      "Command": "type",
+      "Target": "id=Fecha_contrato",
+      "Value": "0002-01-12"
+    },
+    {
+      "Command": "type",
+      "Target": "id=Fecha_contrato",
+      "Value": "0020-01-12"
+    },
+    {
+      "Command": "type",
+      "Target": "id=Fecha_contrato",
+      "Value": "0201-01-12"
+    },
+    {
+      "Command": "type",
+      "Target": "id=Fecha_contrato",
+      "Value": "2018-01-12"
+    },
+    {
+      "Command": "type",
+      "Target": "id=Salario",
+      "Value": "3000"
+    },
+    {
+      "Command": "type",
+      "Target": "id=contrasenia",
+      "Value": "Credentials1?"
+    },
+    {
+      "Command": "type",
+      "Target": "id=contrasenia2",
+      "Value": "Credentials1?"
+    },
+    {
+      "Command": "click",
+      "Target": "//*[@id=\"formulario\"]/div[9]/input",
+      "Value": ""
+    }
+  ]
+}

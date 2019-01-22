@@ -1,0 +1,216 @@
+{
+  "Name": "pruebas",
+  "CreationDate": "2019-1-13",
+  "Commands": [
+    {
+      "Command": "open",
+      "Target": "https://gema-de-la-fuente.github.io/PracticaFormulario/formulario.html",
+      "Value": ""
+    },
+    {
+      "Command": "open",
+      "Target": "https://gema-de-la-fuente.github.io/PracticaFormulario/formulario.html",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=Nombre",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=Nombre",
+      "Value": "homa1"
+    },
+    {
+      "Command": "click",
+      "Target": "id=Nombre",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=Apellido",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=Apellido",
+      "Value": "hola1"
+    },
+    {
+      "Command": "click",
+      "Target": "id=email",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=email",
+      "Value": "holaaaaa@hotmail.com"
+    },
+    {
+      "Command": "click",
+      "Target": "id=Fecha_contrato",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=Fecha_contrato",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=Fecha_contrato",
+      "Value": "2019-01-15"
+    },
+    {
+      "Command": "click",
+      "Target": "id=movil",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=movil",
+      "Value": "111111111"
+    },
+    {
+      "Command": "click",
+      "Target": "id=Salario",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=Salario",
+      "Value": "12001"
+    },
+    {
+      "Command": "click",
+      "Target": "id=formulario",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=contrasenia",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=contrasenia",
+      "Value": "jdsajdsjkaj"
+    },
+    {
+      "Command": "type",
+      "Target": "id=contrasenia2",
+      "Value": "jkajsdijaisjd"
+    },
+    {
+      "Command": "click",
+      "Target": "//*[@id=\"formulario\"]/div[9]/input",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=Nombre",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=Nombre",
+      "Value": "homa"
+    },
+    {
+      "Command": "click",
+      "Target": "//*[@id=\"formulario\"]/div[9]/input",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=Apellido",
+      "Value": "hola"
+    },
+    {
+      "Command": "click",
+      "Target": "//*[@id=\"formulario\"]/div[9]/input",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=email",
+      "Value": "hola@pufo.es"
+    },
+    {
+      "Command": "click",
+      "Target": "//*[@id=\"formulario\"]/div[9]/input",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=Fecha_contrato",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=Fecha_contrato",
+      "Value": "2019-01-12"
+    },
+    {
+      "Command": "click",
+      "Target": "//*[@id=\"formulario\"]/div[9]/input",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=movil",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=movil",
+      "Value": "711111111"
+    },
+    {
+      "Command": "click",
+      "Target": "//*[@id=\"formulario\"]/div[9]/input",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=Salario",
+      "Value": "12000"
+    },
+    {
+      "Command": "click",
+      "Target": "//*[@id=\"formulario\"]/div[9]/input",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=contrasenia",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=contrasenia2",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=contrasenia",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=contrasenia",
+      "Value": "Caracteres1*"
+    },
+    {
+      "Command": "type",
+      "Target": "id=contrasenia2",
+      "Value": "Caracteres1*"
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "//*[@id=\"formulario\"]/div[9]/input",
+      "Value": ""
+    }
+  ]
+}

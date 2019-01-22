@@ -1,0 +1,221 @@
+{
+  "Name": "Prueba4",
+  "CreationDate": "2019-1-10",
+  "Commands": [
+    {
+      "Command": "open",
+      "Target": "https://pazrubio.github.io/Formulario/formulario.html",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=Nombre",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=Nombre",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=Nombre",
+      "Value": "Paz"
+    },
+    {
+      "Command": "type",
+      "Target": "id=Nombre",
+      "Value": "Paz"
+    },
+    {
+      "Command": "type",
+      "Target": "id=Apellido",
+      "Value": "Rubio"
+    },
+    {
+      "Command": "type",
+      "Target": "id=Apellido",
+      "Value": "Rubio"
+    },
+    {
+      "Command": "type",
+      "Target": "id=email",
+      "Value": "rubio@pufo.es"
+    },
+    {
+      "Command": "type",
+      "Target": "id=email",
+      "Value": "rubio@pufo.es"
+    },
+    {
+      "Command": "click",
+      "Target": "id=Trabajo",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=Trabajo",
+      "Value": ""
+    },
+    {
+      "Command": "select",
+      "Target": "id=Trabajo",
+      "Value": "label=SECRETARIO"
+    },
+    {
+      "Command": "select",
+      "Target": "id=Trabajo",
+      "Value": "label=SECRETARIO"
+    },
+    {
+      "Command": "click",
+      "Target": "id=Trabajo",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=Trabajo",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=Jefe",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=Jefe",
+      "Value": ""
+    },
+    {
+      "Command": "select",
+      "Target": "id=Jefe",
+      "Value": "label=JAMES MURRAY"
+    },
+    {
+      "Command": "select",
+      "Target": "id=Jefe",
+      "Value": "label=JAMES MURRAY"
+    },
+    {
+      "Command": "click",
+      "Target": "id=Jefe",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=Jefe",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=Fecha_contrato",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=Fecha_contrato",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=Fecha_contrato",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=Fecha_contrato",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=Fecha_contrato",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=Fecha_contrato",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=Fecha_contrato",
+      "Value": "2019-01-08"
+    },
+    {
+      "Command": "type",
+      "Target": "id=Fecha_contrato",
+      "Value": "2019-01-08"
+    },
+    {
+      "Command": "click",
+      "Target": "id=movil",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=movil",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=movil",
+      "Value": "611111111"
+    },
+    {
+      "Command": "type",
+      "Target": "id=movil",
+      "Value": "611111111"
+    },
+    {
+      "Command": "click",
+      "Target": "id=Salario",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=Salario",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=Salario",
+      "Value": "1200"
+    },
+    {
+      "Command": "type",
+      "Target": "id=Salario",
+      "Value": "1200"
+    },
+    {
+      "Command": "type",
+      "Target": "id=contrasenia",
+      "Value": "Credenciales1*"
+    },
+    {
+      "Command": "type",
+      "Target": "id=contrasenia",
+      "Value": "Credenciales1*"
+    },
+    {
+      "Command": "type",
+      "Target": "id=contrasenia2",
+      "Value": "Credenciales1*"
+    },
+    {
+      "Command": "type",
+      "Target": "id=contrasenia2",
+      "Value": "Credenciales1*"
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "//*[@id=\"formulario\"]/div[9]/input",
+      "Value": ""
+    },
+    {
+      "Command": "clickAndWait",
+      "Target": "//*[@id=\"formulario\"]/div[9]/input",
+      "Value": ""
+    }
+  ]
+}

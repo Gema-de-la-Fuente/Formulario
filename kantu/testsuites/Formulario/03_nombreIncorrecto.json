@@ -1,0 +1,26 @@
+{
+  "Name": "03_nombreIncorrecto.json",
+  "CreationDate": "2019-1-13",
+  "Commands": [
+    {
+      "Command": "open",
+      "Target": "https://gema-de-la-fuente.github.io/PracticaFormulario/formulario.html",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=Nombre",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=Nombre",
+      "Value": "hola1"
+    },
+    {
+      "Command": "click",
+      "Target": "//*[@id=\"formulario\"]/div[9]/input",
+      "Value": ""
+    }
+  ]
+}

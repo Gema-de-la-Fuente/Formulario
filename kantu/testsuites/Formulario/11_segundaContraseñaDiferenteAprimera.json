@@ -1,0 +1,96 @@
+{
+  "Name": "pruebas",
+  "CreationDate": "2019-1-13",
+  "Commands": [
+    {
+      "Command": "open",
+      "Target": "https://gema-de-la-fuente.github.io/PracticaFormulario/formulario.html",
+      "Value": ""
+    },
+    {
+      "Command": "open",
+      "Target": "https://gema-de-la-fuente.github.io/PracticaFormulario/formulario.html",
+      "Value": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=Nombre",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=Nombre",
+      "Value": "hola"
+    },
+    {
+      "Command": "type",
+      "Target": "id=Apellido",
+      "Value": "hols"
+    },
+    {
+      "Command": "type",
+      "Target": "id=email",
+      "Value": "hola@pufo.es"
+    },
+    {
+      "Command": "select",
+      "Target": "id=Trabajo",
+      "Value": "label=SECRETARIO"
+    },
+    {
+      "Command": "select",
+      "Target": "id=Trabajo",
+      "Value": "label=STAFF"
+    },
+    {
+      "Command": "select",
+      "Target": "id=Jefe",
+      "Value": "label=JAMES MURRAY"
+    },
+    {
+      "Command": "select",
+      "Target": "id=Jefe",
+      "Value": "label=ALICE JENSEN"
+    },
+    {
+      "Command": "click",
+      "Target": "id=Fecha_contrato",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=Fecha_contrato",
+      "Value": "2019-01-03"
+    },
+    {
+      "Command": "type",
+      "Target": "id=Salario",
+      "Value": "2000"
+    },
+    {
+      "Command": "type",
+      "Target": "id=contrasenia",
+      "Value": "Credenciales1*"
+    },
+    {
+      "Command": "type",
+      "Target": "id=contrasenia2",
+      "Value": "patataaaaaaaaaaaa"
+    },
+    {
+      "Command": "click",
+      "Target": "//*[@id=\"formulario\"]/div[9]/input",
+      "Value": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=movil",
+      "Value": "711111111"
+    },
+    {
+      "Command": "click",
+      "Target": "//*[@id=\"formulario\"]/div[9]/input",
+      "Value": ""
+    }
+  ]
+}

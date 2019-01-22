@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Empresa PUFO S.A</title>
+        <link rel="stylesheet" type="text/css" href="css/estiloEmpleados2.css">
+
+    </head>
+    <body>
+        <header>
+            <h1>Formulario Empleado</h1>
+        </header>
+        <hr>
+        <div id="mensaje"></div>
+        
+        <div class="botonesD">
+            <input type="button" onclick="document.location = 'index.html'" value="Login"/>
+        </div>
+        <form method="post" id="formulario" action="index.html" onsubmit='setCookie(nombre.value, contrasenia.value)'>
+            <label title="Obligatorio">Nombre:*</label>
+            <input type="text" id="Nombre"  placeholder="Nombre" minlength ="2" maxlength="15" pattern="[A-Za-z]{2,15}" required>
+            <div class="txtError"></div>
+            <br>
+            
+            <label title="Obligatorio">Apellido:*</label>
+            <input type="text" id="Apellido" placeholder="Apellido" minlength ="2" maxlength="15" pattern="[A-Za-z]{2,15}" required>
+            <div class="txtError"></div>
+            <br>
+            
+            <label title="Obligatorio">Usuario:*</label>
+            <input type="email" id="email" placeholder="example1@pufo.es" pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@(pufo.es){1}$" required>
+            <div class="txtError"></div>
+            <br>
+            
+            <label>Trabajo:</label>
+            <select id="Trabajo">
+                <!--generamos los option con js y el array Trabajos-->
+            </select>
+            <br><br>
+            
+            <label>Jefe:</label>
+            <select id="Jefe">
+                <!--generamos los option con js y el array jefes-->
+            </select>
+            <br><br>
+            
+            <label title="Obligatorio">Fecha de Contrato:*</label>
+            <input type="date" id="Fecha_contrato" min="2000-01-01" onchange="validarFecha();" required>
+            <!--controlar maxima en js No mayor a la fecha actual-->
+            <div class="txtError"></div>
+            <br>
+            
+            <label>Móvil:</label>
+            <input type="number" id="movil" pattern="/^[6|7][0-9]{8}$/">
+            <div class="txtError"></div>
+            <br>
+            
+            <label>Salario:*</label>
+            <input type="text" id="Salario">
+             <!--controlar el minimo en js No menor de 858.55 y el maximo 12000-->
+             <div class="txtError"></div>
+            <br>
+            
+            <label title="Obligatorio">Contraseña:*</label>
+            <input type="password" id="contrasenia" required>
+             <div class="txtError"></div>
+            <br>
+            
+            <label>Confirmar contraseña:*</label>
+            <input type="password" id="contrasenia2" required>
+             <div class="txtError"></div>
+            <br><br>
+
+            <div class="botonesD">
+                <input type="submit" value="Registrar Empleado" >
+            </div>
+        </form>
+        <script src="js/formulario.js"></script>
+    </body>
+</html>
